@@ -9,7 +9,8 @@ public class DuplicateZeros {
         {
             if (arr[i] == 0)
             {
-                //walking through the array and checking each element. So if I find a 0, I shift the //elements on the right side to the right by 1 (arr.length - 2 is the second last element).
+                //walking through the array and checking each element. So if I find a 0, I shift the
+                // elements on the right side to the right by 1 (arr.length - 2 is the second last element).
                 for (int j = arr.length - 2; j >= i; j--)
                 {
                     arr[j + 1] = arr[j];

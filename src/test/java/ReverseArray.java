@@ -3,7 +3,6 @@ public class ReverseArray {
     public static void main(String[] args)
     {
         int[] arr = new int[] { 1, 2, 3, 4, 5};
-        System.out.println("I am a Geek");
         int[] reverseArray = reverseArray(arr);
     }
 
