@@ -19,6 +19,6 @@ public class ContainsDuplicates {
         int[] arr = new int[] {1,1,1,3,3,4,3,2,4,2};
         System.out.println("I am a Geek");
         boolean containsDuplicate = containsDuplicate(arr);
-        System.out.println("Max Profit:" + containsDuplicate);
+        System.out.println("Contains duplicates:" + containsDuplicate);
     }
 }

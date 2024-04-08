@@ -30,6 +30,6 @@ public class ValidPalindrome {
         StringBuilder sb = new StringBuilder(s);
         System.out.println("I am a Geek");
         boolean palindrome = validPalindrome(s);
-        System.out.println("Palindrome" + palindrome);
+        System.out.println("Palindrome: " + palindrome);
     }
 }

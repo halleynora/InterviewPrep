@@ -5,7 +5,8 @@ public class BalancedBrackets {
 //    Let's consider the basic validations for the input string:
 //
 //    If a null input is passed, then it's not balanced.
-//    For a string to be balanced, the pairs of opening and closing brackets should match. Therefore, it would be safe to say that an input string whose length is odd will not be balanced as it will contain at least one non-matched bracket.
+//    For a string to be balanced, the pairs of opening and closing brackets should match.
+//    Therefore, it would be safe to say that an input string whose length is odd will not be balanced as it will contain at least one non-matched bracket.
 //    As per the problem statement, the balanced behavior should be checked between brackets. Therefore, any input string containing non-bracket characters is an unbalanced string.
 //    Given these rules, we can implement the validations:
 
