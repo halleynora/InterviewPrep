@@ -26,7 +26,7 @@ public class ValidPalindrome {
 
     public static void main(String[] args)
     {
-        String s = new String("abca");
+        String s = new String("abcdedcba");
         StringBuilder sb = new StringBuilder(s);
         System.out.println("I am a Geek");
         boolean palindrome = validPalindrome(s);

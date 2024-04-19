@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class FindPair {
+public class TwoSum {
     // Function to find a pair in an array with a given sum using sorting
     public static void findPair(int[] nums, int target)
     {

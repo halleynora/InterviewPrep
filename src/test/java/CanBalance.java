@@ -24,7 +24,6 @@ public class CanBalance {
     public static void main(String[] args)
     {
         int[] arr = new int[] {2, 1, 1, 2};
-        System.out.println("I am a Geek");
         boolean canBalance = canBalance(arr);
         System.out.println("Can Balance " + canBalance);
     }

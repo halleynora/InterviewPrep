@@ -4,6 +4,9 @@ public class ReverseArray {
     {
         int[] arr = new int[] { 1, 2, 3, 4, 5};
         int[] reverseArray = reverseArray(arr);
+        for (int index:reverseArray) {
+            System.out.println(" " + index);
+        }
     }
 
     public static int[] reverseArray(int[] data) {
