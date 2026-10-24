@@ -20,7 +20,7 @@ public class CountConsecutiveClumps {
 
     public static void main(String[] args)
     {
-        int[] arr = new int[] {1,2,2,2,3,4,4};
+        int[] arr = new int[] {1,2,2,2,3,4,4,1,6,6,6};
         System.out.println("I am a Geek");
         int clumpCount = countConsecutiveClumps(arr);
         System.out.println("Clump Count:" + clumpCount);
