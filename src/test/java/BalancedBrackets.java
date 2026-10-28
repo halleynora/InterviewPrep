@@ -10,7 +10,7 @@ public class BalancedBrackets {
 //    As per the problem statement, the balanced behavior should be checked between brackets. Therefore, any input string containing non-bracket characters is an unbalanced string.
 //    Given these rules, we can implement the validations:
 
-    private static String matchParenthisis(String str) {
+    private static String matchParenthesis(String str) {
         Stack<Character> st = new Stack<Character>();
         char[] ch = str.toCharArray();
         for (char c : ch) {
@@ -41,7 +41,7 @@ public class BalancedBrackets {
         String brackets = "([{{[(())]}}])";
 //        String brackets = "{{[]()}}}}";
         System.out.println("I am a Geek");
-        String isBalanced = matchParenthisis(brackets);
+        String isBalanced = matchParenthesis(brackets);
         System.out.println("Brackets are balanced:" + isBalanced);
     }
 }

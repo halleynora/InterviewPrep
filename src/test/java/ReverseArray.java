@@ -9,6 +9,10 @@ public class ReverseArray {
         }
     }
 
+    /*
+    How it works: Start one pointer at each end of the array. Swap the two elements,
+    then move both pointers toward the middle. Stop when they meet. It runs in O(n) time and uses O(1) extra space.
+     */
     public static int[] reverseArray(int[] data) {
         int left = 0;
         int right = data.length - 1;
@@ -26,4 +30,6 @@ public class ReverseArray {
 
         return data;
     }
+
+
 }

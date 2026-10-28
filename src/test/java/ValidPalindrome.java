@@ -23,6 +23,15 @@ public class ValidPalindrome {
         return isPalindrome;
     }
 
+    public static boolean isPalindromeConcise(String str) {
+        if (str == null) {
+            return false;
+        }
+
+        // Reverse the string and compare it to the original
+        String reversed = new StringBuilder(str).reverse().toString();
+        return str.equals(reversed);
+    }
 
     public static void main(String[] args)
     {
@@ -31,5 +40,8 @@ public class ValidPalindrome {
         System.out.println("I am a Geek");
         boolean palindrome = validPalindrome(s);
         System.out.println("Palindrome: " + palindrome);
+
+        palindrome = isPalindromeConcise(s);
+        System.out.println("Palindrome Concise Version: " + palindrome);
     }
 }

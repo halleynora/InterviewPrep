@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Substring {
-    /*Given a string, , and two indices,  and , print a substring consisting of all characters in the inclusive range from start to end -1 . You'll find the String class' substring method helpful in completing this challenge.
+    /*Given a string, , and two indices, start and end, print a substring consisting of all characters in the inclusive range from start to end -1 . You'll find the String class' substring method helpful in completing this challenge.
 
             Input Format
 
@@ -14,6 +14,12 @@ public class Substring {
     Output Format
 
     Print the substring in the inclusive range from start to end -1 .
+
+    Sample Input:
+    Helloworld
+    3 7
+    Sample Output:
+    lowo
 */
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
